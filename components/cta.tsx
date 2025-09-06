@@ -18,7 +18,7 @@ export default function Cta() {
             </p>
 
             {/* CTA button */}
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
+            {/* <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href="https://wa.me/601135789122?text=你好，我想了解Durian Invoice System"
                 target="_blank"
@@ -27,7 +27,7 @@ export default function Cta() {
               >
                 联系我们
               </a>
-            </div>
+            </div> */}
           </div>
 
         </div>
