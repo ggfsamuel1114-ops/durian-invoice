@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-40 pb-12 md:pt-40 md:pb-20 text-center">
           {/* 产品名 / Product Name */}
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-30">
             Durian Invoice System <br />
             <span className="text-3xl md:text-4xl font-normal text-gray-600">
               榴莲收据系统
@@ -35,7 +35,7 @@ export default function Hero() {
           </h1>
 
           {/* tagline */}
-          <p className="text-2xl text-blue-600 font-semibold mt-35 mb-40">
+          <p className="text-2xl text-blue-600 font-semibold mt-8 mb-40">
             高效 · 专业 · 可定制 <br />
             <span className="text-lg text-gray-700">
               Efficient · Professional · Customizable
