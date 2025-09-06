@@ -4,20 +4,30 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-b from-white to-gray-50">
-      {/* 🔹 左上角返回按钮 */}
-      <div className="absolute top-6 left-6">
+      {/* 🔹 左上角返回按钮 + Powered by */}
+      <div className="absolute top-6 left-6 flex items-center gap-4">
         <Link
           href="/syve/software"
           className="inline-block px-4 py-2 rounded-lg bg-gray-200 text-gray-800 font-medium hover:bg-gray-300 transition"
         >
-          ← Back
+          Back
         </Link>
+
+        <p className="text-sm text-gray-600">
+          Powered by{" "}
+          <Link
+            href="/syve/software"
+            className="font-semibold text-blue-600 hover:underline"
+          >
+            Syve Software
+          </Link>
+        </p>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-40 pb-12 md:pt-40 md:pb-20 text-center">
           {/* 产品名 / Product Name */}
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
             Durian Invoice System <br />
             <span className="text-3xl md:text-4xl font-normal text-gray-600">
               榴莲收据系统
@@ -25,7 +35,7 @@ export default function Hero() {
           </h1>
 
           {/* tagline */}
-          <p className="text-2xl text-blue-600 font-semibold mb-30">
+          <p className="text-2xl text-blue-600 font-semibold mt-35 mb-40">
             高效 · 专业 · 可定制 <br />
             <span className="text-lg text-gray-700">
               Efficient · Professional · Customizable

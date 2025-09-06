@@ -28,7 +28,7 @@ export default function SyveSoftwarePage() {
           height={250}
           className="mx-auto mb-5"
         />
-        <p className="text-lg text-gray-300 max-w-5xl mx-auto">
+        <p className="text-lg text-gray-300 max-w-2xl mx-auto">
           At Syve Software Development, we help businesses of all sizes from
           small startups to large enterprises. To build innovative software
           solutions that empower growth and efficiency.
